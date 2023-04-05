@@ -10,6 +10,10 @@ To use the SearchBar component, follow these steps:
 
 Clone the repository to your local machine and cd into.
 
+Pending (for time limitations)
+
+- Add unit tests
+
 Run
 
 `npm install`
