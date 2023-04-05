@@ -66,7 +66,7 @@ export const useSearch = (initialState: string) => {
     }
 
     const debounceFn = setTimeout(() => {
-      setResults([]); // Agregamos esta línea para limpiar los resultados antes de la nueva búsqueda
+      setResults([]);
       search(searchTerm);
     }, timeUntilSearch);
 
