@@ -18,9 +18,6 @@ const Results = ({
   isLoading,
   error,
 }: Props) => {
-  console.log(error);
-
-  // ...
   if (isLoading) {
     return <div className="results-loading">Loading(Spinner)...</div>;
   }
